@@ -55,21 +55,22 @@ Abre tu navegador y entra en:
 http://localhost/ReservasAulas
 
 
-## Estructura del proyecto
+## Estructura del Proyecto
 
-ReservasAulas/
-│
-├── index.php                 # Página principal (información del centro)
-├── conexion.php              # Conexión y creación automática de tablas
-├── configuracion.php         # Parámetros de conexión a la base de datos
-├── funciones.php             # Funciones auxiliares (formularios, queries, validaciones)
-├── aulas.php                 # Gestión de salas
-├── reservas.php              # Gestión de reservas
-├── admin.php                 # Panel de administración
-├── estilos.css               # Estilos globales del sitio
-├── imagenes/                 # Carpeta de imágenes y logotipos
-├── documentacion.pdf         # PDF adjunto con credenciales y roles
-└── README.md                 # Documentación del proyecto
+| Archivo / Carpeta | Tipo / Función | Descripción |
+|--------------------|----------------|--------------|
+| `index.php` | Página principal | Muestra la información del centro y acceso al sistema |
+| `conexion.php` | Backend / Base de datos | Gestiona la conexión y crea las tablas automáticamente |
+| `configuracion.php` | Configuración | Define los parámetros de conexión a la base de datos |
+| `funciones.php` | Funciones auxiliares | Contiene formularios, validaciones y operaciones de consulta |
+| `aulas.php` | Módulo de gestión | Permite crear, editar y eliminar salas |
+| `reservas.php` | Módulo de reservas | Controla la gestión y visualización de reservas |
+| `admin.php` | Panel de administración | Interfaz para modificar datos del centro y gestionar usuarios |
+| `js/` | Scripts JavaScript | Validaciones y funciones dinámicas del cliente |
+| `estilos.css` | Hoja de estilos | Define la apariencia general del sitio |
+| `imagenes/` | Recursos gráficos | Logotipos, fotos de aulas y material multimedia |
+| `documentacion.pdf` | Documento de referencia | Incluye credenciales y roles de usuario |
+| `README.md` | Documentación | Descripción general e instrucciones del proyecto |
 
 ## Autores
 Proyecto desarrollado como práctica universitaria por:
