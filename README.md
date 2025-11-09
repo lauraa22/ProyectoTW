@@ -75,8 +75,7 @@ http://localhost/ReservasAulas
 ## Autores
 Proyecto desarrollado como práctica universitaria por:
 
-Laura Guirao Torrente
-Marcos Ramírez Heras
+Laura Guirao Torrente y Marcos Ramírez Heras
 
 Universidad de Granada – Escuela Técnica Superior de Ingenierías Informática y de Telecomunicación (ETSIIT)
 
