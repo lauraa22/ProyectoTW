@@ -29,8 +29,8 @@ El sistema incluye autenticación de usuarios, administración de salas, control
 ## ⚙️ Instalación y configuración
 
 ### 1. Clonar el repositorio
-```bash
-git clone https://github.com/<tu-usuario>/ReservasAulas.git ```
+
+git clone https://github.com/<tu-usuario>/ReservasAulas.git 
 
 ### 2. Mover el proyecto al servidor local
 
