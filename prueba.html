@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Aulas - Inicio</title>
+    
+    <style>
+#ficha { color: gold; }
+ .seccion { color: green; }
+ section .marcado:nth-child(1) { color: blue; }
+ .ficha { color: gray; }
+ .titulo { color: aqua; }
+ section { color: red; }
+ section > ul span.marcado:nth-child(2) { color: yellow; }
+ span, ul > span { color: salmon; }
+ body > header > h1:first-child { color: pink; }
+        </style>
+</head>
+<body>
+ <header class="header">
+ <h1 class="titulo">Breaking Bad</h1>
+ <img src="breaking.jpg" />
+ </header>
+ <section id="ficha" class="seccion">
+ <h1>Datos técnicos:</h1>
+ <ul>
+ <li>Año:
+ <span class="marcado">2008</span></li>
+ <li>País:
+ <span class="marcado">EEUU</span></li>
+ <li>
+ <span class="marcado">Productores:</span>
+ <ul>
+ <li>Vince Gilligan</li>
+ <li>Mark Johnson</li>
+ <li>Michelle MacLaren</li>
+ </ul>
+ </li>
+ </ul>
+ <section>
+ <h1 class="titulo">Reparto:</h1>
+ <ul>
+ <li>Bryan Cranston</li>
+ <li>Aaron Paul</li>
+ <li>Anna Gunn</li>
+ <li>Dean Norris</li>
+ </ul>
+ </section>
+ </section>
+ <section class="seccion">
+ <h1>Sinopsis:</h1>
+ <p>Narra la historia de Walter White, un profesor de
+química con problemas económicos.</p>
+ </section>
+ <section class="seccion">
+ <p>Datos obtenidos de
+ <span class="marcado">Wikipedia</span>
+ y otros sitios</p>
+ </section>
+</body>
